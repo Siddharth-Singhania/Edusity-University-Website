@@ -1,0 +1,108 @@
+.Contact{
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto;
+    align-items: center;
+    color: #676767;
+}
+
+.left{
+   flex-basis: 48% ;
+
+}
+
+.msg{
+    
+    max-width: 450px;
+    list-style: 1.3;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.heading h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: #000F38;
+}
+
+.heading img{
+    width: 35px;
+    margin-left: 10px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.email img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.phone img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.location img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+
+.right{
+    flex-basis: 40%;
+    display: block;
+}
+
+.right form input, .right form textarea{
+    padding: 15px;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #EBECFE ;
+    cursor: pointer;
+    outline: 0;   
+}
+
+.right form textarea{
+    height: 80px;
+    resize: none; 
+}
+
+.right span{
+    display: block;
+    margin: 20px 0;
+}
+
+@media (max-width: 700px){
+    .Contact{
+        display: block;
+    }
+
+    .right{
+        margin-top: 40px
+    }
+}
